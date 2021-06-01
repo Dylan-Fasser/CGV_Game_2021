@@ -1,0 +1,603 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 292,
+      "max": [
+        -10.931839942932129,
+        110.92304992675781,
+        15
+      ],
+      "min": [
+        -137.70103454589844,
+        -110.92304992675781,
+        -15
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3504,
+      "componentType": 5126,
+      "count": 292,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 292,
+      "max": [
+        1,
+        0.99999547004699707,
+        0.99999839067459106,
+        1
+      ],
+      "min": [
+        -0.99999576807022095,
+        -0.99999320507049561,
+        -0.9999963641166687,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 292,
+      "max": [
+        0.99648523330688477,
+        0.99646323919296265
+      ],
+      "min": [
+        0.0035147375892847776,
+        0.13390505313873291
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2336,
+      "componentType": 5126,
+      "count": 292,
+      "max": [
+        0.99648523330688477,
+        0.99646323919296265
+      ],
+      "min": [
+        0.0035147375892847776,
+        0.13390505313873291
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 492,
+      "max": [
+        291
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 7008,
+      "componentType": 5126,
+      "count": 246,
+      "max": [
+        1.6691198348999023,
+        107.55664825439453,
+        1.6691198348999023
+      ],
+      "min": [
+        -94.683067321777344,
+        -97.533500671386719,
+        -8.5783786773681641
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 9960,
+      "componentType": 5126,
+      "count": 246,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 4672,
+      "componentType": 5126,
+      "count": 246,
+      "max": [
+        1,
+        0.99999988079071045,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99999356269836426,
+        -0.99999755620956421,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4672,
+      "componentType": 5126,
+      "count": 246,
+      "max": [
+        0.77681565284729004,
+        0.99648523330688477
+      ],
+      "min": [
+        0.0035147375892847776,
+        0.088500738143920898
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6640,
+      "componentType": 5126,
+      "count": 246,
+      "max": [
+        0.77681565284729004,
+        0.99648523330688477
+      ],
+      "min": [
+        0.0035147375892847776,
+        0.088500738143920898
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1968,
+      "componentType": 5125,
+      "count": 438,
+      "max": [
+        245
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12912,
+      "componentType": 5126,
+      "count": 220,
+      "max": [
+        18.804872512817383,
+        1.9966584444046021,
+        11.678562164306641
+      ],
+      "min": [
+        -2.0004768371582031,
+        -2.0033414363861084,
+        -11.678562164306641
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15552,
+      "componentType": 5126,
+      "count": 220,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 8608,
+      "componentType": 5126,
+      "count": 220,
+      "max": [
+        0.68246257305145264,
+        0.97247111797332764,
+        0.99977248907089233,
+        1
+      ],
+      "min": [
+        -0.99997919797897339,
+        -0.34282174706459045,
+        -0.9996991753578186,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8608,
+      "componentType": 5126,
+      "count": 220,
+      "max": [
+        0.6440015435218811,
+        0.46103966236114502
+      ],
+      "min": [
+        0.35248991847038269,
+        0.2982027530670166
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10368,
+      "componentType": 5126,
+      "count": 220,
+      "max": [
+        0.6440015435218811,
+        0.46103966236114502
+      ],
+      "min": [
+        0.35248991847038269,
+        0.2982027530670166
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3720,
+      "componentType": 5125,
+      "count": 840,
+      "max": [
+        219
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3DMaesen (https://sketchfab.com/bumstrum)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/door-2738468b94d74c5f827e7e5df7be8359",
+      "title": "Door"
+    },
+    "generator": "Sketchfab-4.81.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7080,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12128,
+      "byteOffset": 7080,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18192,
+      "byteOffset": 19208,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12128,
+      "byteOffset": 37400,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 49528,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/door1_normal.png"
+    },
+    {
+      "uri": "textures/door1_baseColor.png"
+    },
+    {
+      "uri": "textures/door1_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "name": "door1",
+      "normalTexture": {
+        "index": 0,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "frame_door1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "door_door1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "handle_door1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "edda2754bf9e423fadf709f11c24ee52.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        74.316436767578125,
+        -100.35894775390625,
+        0,
+        1
+      ],
+      "name": "frame"
+    },
+    {
+      "mesh": 0,
+      "name": "frame_door1_0"
+    },
+    {
+      "children": [
+        7,
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        46.729907989501953,
+        -112.93794250488281,
+        4.7337570190429688,
+        1
+      ],
+      "name": "door"
+    },
+    {
+      "mesh": 1,
+      "name": "door_door1_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -85.591590881347656,
+        0.56437909603118896,
+        -4.7337570190429688,
+        1
+      ],
+      "name": "handle"
+    },
+    {
+      "mesh": 2,
+      "name": "handle_door1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+

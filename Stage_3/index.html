@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #blocker {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        #instructions {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            color: aliceblue;
+
+            text-align: center;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        #death {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            color: red;
+
+            text-align: center;
+        }
+
+        #finish {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            color: deepskyblue;
+
+            text-align: center;
+        }
+    </style>
+    <title>Hotel de la Holorie</title>
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+<div id="blocker">
+    <div id="instructions">
+<!--        <p style="font-size:24px">-->
+<!--            Intro:-->
+<!--        </p>-->
+        <p>
+            Your nerves frayed, you feel like you've been wandering the dim, groaning maze of hotel corridors for hours.<br/>
+            But this one feels different; you can hear slight shuffling behind some of the doors...
+        </p>
+        <p style="font-size:24px">
+            Prepare for Monster Attacks!
+        </p>
+        <p>
+            Monsters are scary but dumb, if you make the right sound to scare them, they'll leave you alone.<br/>
+            It's up to you to figure out which is which.<br/>
+        </p>
+        <p style="font-size:24px">
+            Controls:
+        </p>
+        <p>
+            Move: WASD<br/>
+            Look: MOUSE<br/>
+            1 - Ghost Sound<br/>
+            2 - Zombie Sound<br/>
+            3 - Monster Sound<br/>
+            4 - Mystery Sound
+        </p>
+        <p style="font-size:36px">
+            Click to begin
+        </p>
+    </div>
+</div>
+<div id="death">
+    <p style="font-size:72px">
+        YOU DIED
+    </p>
+</div>
+<div id="finish">
+    <p style="font-size:72px">
+        Stage Cleared!
+    </p>
+</div>
+</body>
+</html>
