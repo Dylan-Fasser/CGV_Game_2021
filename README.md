@@ -1,4 +1,4 @@
-# CGV_Game_2021
+# Hotel de la Holorie
 
 - #### Project Scope 
       -  Build a 3D computer game with 4 levels/stages that can be ran on Chrome or Ubuntu
