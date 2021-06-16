@@ -20,6 +20,11 @@
       -  Nthabiseng Mabetlela  1828559: Stage 2
       -  Gabriel Tidy  2152375: Stage 3
       -  Athule Ntintili  1860312: Stage 4
+
+ # Programmimg languages
+   - HTML
+   - CSS
+   - Javascript
       
  # Requirements
 - #### User
@@ -30,11 +35,6 @@
   - Webstorm Version: 2021.1.2 Build: 211.7442.26 (recommended)
   - Three.js framwork https://threejs.org/
   
-  # Programmimg languages
-   - HTML
-   - CSS
-   - Javascript 
-
 # Sources to credit
  ## Level 2: 
   - "Door Single" (https://skfb.ly/67o8T) by grimren13 is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
