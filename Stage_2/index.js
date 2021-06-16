@@ -1,6 +1,9 @@
 import * as THREE from './libs/threejs/three.module.js';
 import {Hotel} from "./js/Hotel.js";
 import {Door} from "./js/Door.js";
+import {WoodenDoor} from "./js/WoodenDoor.js";
+import {BlueDoor} from "./js/BlueDoor.js";
+
 import {PointerLockControls} from "./libs/threejs/PointerLockControls.js";
 
 import * as POINT_CONTROL from "./libs/threejs/PointerLockControls.js";
@@ -62,7 +65,7 @@ const createWorld = () => {
 
     //The door on the right hand Side
     const doorTwo = new Door(); // position: {x: -16.42490580900899, y: -5.7, z: -1.3672302835366057}
-    doorTwo.getDoorObject().then((object) => {
+    doorTwo.getWoodenDoorObject().then((object) => {
         object.scale.set(0.011, 0.011, 0.011);
         object.position.set(-16.6, -6.8, -1.7);
         object.rotation.x = Math.PI / 270; //positions the door upright
@@ -74,7 +77,7 @@ const createWorld = () => {
 
     // The door on the left hand side
     const doorThree = new Door();
-    doorThree.getDoorObject().then((object) => {
+    doorThree.getBlueDoorObject().then((object) => {
         object.scale.set(0.0095, 0.0095, 0.0095); //resizing the door
         object.position.set(-19.5, -6.7, -0.9);
         object.rotation.x = Math.PI / 270; //positions the door upright
