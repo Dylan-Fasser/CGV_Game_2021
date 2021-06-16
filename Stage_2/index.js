@@ -10,7 +10,7 @@ let scene, camera, renderer, controls, doorOne, doorTwo, doorThree ; //global va
 
 let sidewaysMovement = 0, forwardsMovement = 0; // for PointerLock Controls
 let initialTime, finalTime;
-let correctDoor; // for the random selector
+let correctDoor; // for the random door selector
 
 const createWorld = () => {
 
@@ -60,6 +60,7 @@ const createWorld = () => {
         //camera.lookAt(object.position);
     });
 
+    //The door on the right hand Side
     const doorTwo = new Door(); // position: {x: -16.42490580900899, y: -5.7, z: -1.3672302835366057}
     doorTwo.getDoorObject().then((object) => {
         object.scale.set(0.011, 0.011, 0.011);
@@ -71,6 +72,7 @@ const createWorld = () => {
 
     });
 
+    // The door on the left hand side
     const doorThree = new Door();
     doorThree.getDoorObject().then((object) => {
         object.scale.set(0.0095, 0.0095, 0.0095); //resizing the door
