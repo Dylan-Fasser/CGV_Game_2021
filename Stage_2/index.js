@@ -8,9 +8,9 @@ import * as POINT_CONTROL from "./libs/threejs/PointerLockControls.js";
 let scene, camera, renderer, controls, doorOne, doorTwo, doorThree ; //global variables.
 // let keyBind = {}; // key binding array
 
-let sidewaysMovement = 0, forwardsMovement = 0;
+let sidewaysMovement = 0, forwardsMovement = 0; // for PointerLock Controls
 let initialTime, finalTime;
-let correctDoor;
+let correctDoor; // for the random selector
 
 const createWorld = () => {
 
@@ -47,7 +47,9 @@ const createWorld = () => {
         camera.lookAt(object.position); //camera looks at the hotel
     });
 
-    //position of the three doors
+    /*
+        The position of all three doors
+     */
     const doorOne = new Door(); //position of door through web console approx: {x: -18.18690055470057, y: -5.7, z: -1.7913537620933089}
     doorOne.getDoorObject().then((object) => {
         object.scale.set(0.01, 0.01, 0.01);
@@ -62,7 +64,7 @@ const createWorld = () => {
     doorTwo.getDoorObject().then((object) => {
         object.scale.set(0.011, 0.011, 0.011);
         object.position.set(-16.6, -6.8, -1.7);
-        object.rotation.x = Math.PI / 270;
+        object.rotation.x = Math.PI / 270; //positions the door upright
         object.rotation.y = Math.PI / -4.3;
         // object.rotation.z = Math.PI / 90;
         scene.add(object);
@@ -73,8 +75,8 @@ const createWorld = () => {
     doorThree.getDoorObject().then((object) => {
         object.scale.set(0.0095, 0.0095, 0.0095); //resizing the door
         object.position.set(-19.5, -6.7, -0.9);
-        object.rotation.x = Math.PI / 270;
-        object.rotation.y = Math.PI / 3.9;
+        object.rotation.x = Math.PI / 270; //positions the door upright
+        object.rotation.y = Math.PI / 3.9; // positions the door on the ground/floor
         scene.add(object);
         //camera.lookAt(object.position);
         // exact coordinates {x: -19.325079303920415, y: -5.7, z: -0.3341399060727056}
@@ -82,6 +84,7 @@ const createWorld = () => {
 
     /*
     This following line is a random selector, meaning the correct door would not remain fixed
+    rather it will alternate between the three doors
      */
     correctDoor = Math.floor(Math.random() * 3);//generate random number between 0 and 2
     init();
@@ -148,19 +151,19 @@ To enable keyboard movement of the PointerLock Control (WASD)
  */
 function keyDowns(e) {
     switch (e.code) {
-        case 'KeyW':
+        case 'KeyW': // move forward
             forwardsMovement = 1;
             break;
-        case 'KeyS':
+        case 'KeyS':  // moves backwards
             forwardsMovement = -1;
             break;
-        case 'KeyA':
+        case 'KeyA': // moves to the left
             sidewaysMovement = -1;
             break;
-        case 'KeyD':
+        case 'KeyD': //moves to the right
             sidewaysMovement = 1;
             break;
-        case 'KeyG':
+        case 'KeyG': //when the console is open it logs in the position of the player (camera)
             console.log(camera.position); //to know the position of where the camera is
             break;
     }
