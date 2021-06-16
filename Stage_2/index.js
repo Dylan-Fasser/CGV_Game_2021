@@ -10,6 +10,7 @@ let scene, camera, renderer, controls, doorOne, doorTwo, doorThree ; //global va
 
 let sidewaysMovement = 0, forwardsMovement = 0;
 let initialTime, finalTime;
+let correctDoor;
 
 const createWorld = () => {
 
@@ -42,8 +43,8 @@ const createWorld = () => {
     // variable for the outer object (the hotel)
     const hotel = new Hotel();
     hotel.getHotelObject().then((object) => {
-       scene.add(object);
-       camera.lookAt(object.position); //camera looks at the hotel
+        scene.add(object);
+        camera.lookAt(object.position); //camera looks at the hotel
     });
 
     //position of the three doors
@@ -79,6 +80,10 @@ const createWorld = () => {
         // exact coordinates {x: -19.325079303920415, y: -5.7, z: -0.3341399060727056}
     });
 
+    /*
+    This following line is a random selector, meaning the correct door would not remain fixed
+     */
+    correctDoor = Math.floor(Math.random() * 3);//generate random number between 0 and 2
     init();
 
 
@@ -87,32 +92,55 @@ const createWorld = () => {
 //checking the position of the camera relative to the door
 const doorOutcome = () => {
 
-        // door 1
-        if ((camera.position.x >= -18.3 && camera.position.x <= 17) && (camera.position.z >= -1.9 && camera.position.z <= -1.3 )) {
-            document.getElementById('outcomeFail').style.display = 'block';
+    // door 1
+    if ((camera.position.x >= -18.3 && camera.position.x <= 17) && (camera.position.z >= -1.9 && camera.position.z <= -1.3 )) {
+        if (correctDoor === 0){
+            showCorrectDoorOutCome();
         }
+        else{
+            showIncorrectDoorOutCome();
+        }
+    }
 
-        else if (camera.position.x < -18 && camera.position.z < -1.9 ) {
-            document.getElementById('outcomeFail').style.display = 'none';
-        }
+    else if (camera.position.x < -18 && camera.position.z < -1.9 ) {
+        document.getElementById('outcomeFail').style.display = 'none';
+    }
 
-        //door 2
-        if (camera.position.x >= -16.6 && camera.position.z >= -1.7) {
-            document.getElementById('outcomePass').style.display = 'block';
+    //door 2
+    if (camera.position.x >= -16.6 && camera.position.z >= -1.7) {
+        if (correctDoor === 1){
+            showCorrectDoorOutCome();
         }
+        else{
+            showIncorrectDoorOutCome();
+        }
+    }
 
-         else if (camera.position.x < -16.6 && camera.position.z < -1.7) {
-            document.getElementById('outcomeFail').style.display = 'none';
-        }
+    else if (camera.position.x < -16.6 && camera.position.z < -1.7) {
+        document.getElementById('outcomeFail').style.display = 'none';
+    }
 
-         //door 3
-        if (((camera.position.x >= -19.5 && camera.position.x <= 18) && (camera.position.z >= -0.9 && camera.position.z <= -0.7 ))) {
-            document.getElementById('outcomeFail').style.display = 'block';
+    //door 3
+    if (((camera.position.x >= -19.5 && camera.position.x <= 18) && (camera.position.z >= -0.9 && camera.position.z <= -0.7 ))) {
+        if (correctDoor === 2){
+            showCorrectDoorOutCome();
         }
+        else{
+            showIncorrectDoorOutCome();
+        }
+    }
 
-        else if (camera.position.x < -19.5 && camera.position.z < -0.7 ) {
-            document.getElementById('outcomeFail').style.display = 'none';
-        }
+    else if (camera.position.x < -19.5 && camera.position.z < -0.7 ) {
+        document.getElementById('outcomeFail').style.display = 'none';
+    }
+}
+
+const showCorrectDoorOutCome = () => {
+    document.getElementById('outcomePass').style.display = 'block';
+}
+
+const showIncorrectDoorOutCome = () => {
+    document.getElementById('outcomeFail').style.display = 'block';
 }
 
 /*
