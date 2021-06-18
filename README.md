@@ -80,7 +80,7 @@ Door" (https://skfb.ly/IHp6)  by JmPrsh153 is licensed under Creative Commons At
 - Thunder.mp3 - https://www.zapsplat.com/music/designed-thunder-crack-1/
 - ZombieGroan.mp3 - https://www.zapsplat.com/music/horror-zombie-male-groan-10/
 
-###3D Models:
+### 3D Models:
 - ceiling_light/scene.gltf - https://sketchfab.com/3d-models/ceiling-light-with-chain-7467af164bd64d0db09565b70b216e12
 - door/scene.gltf - https://sketchfab.com/3d-models/door-74d956efa44e430785a247e34c9ef599
 - Animated FBX models from https://www.mixamo.com/ 
@@ -92,7 +92,7 @@ Door" (https://skfb.ly/IHp6)  by JmPrsh153 is licensed under Creative Commons At
   - ZombieIdle.fbx - model: Prisoner B Styperek, animation: Zombie Idle
   - ZombieRight.fbx - model: Prisoner B Styperek, animation: Standing Dodge Right
 
-###2D Textures:
+### 2D Textures:
 - carpet.jpg - https://ambientcg.com/view?id=Fabric026
 - ceiling.jpg - https://www.wildtextures.com/free-textures/just-a-simple-seamless-concrete-texture/
 - wall_tile.jpg - http://texturelib.com/texture/?path=/Textures/tile/tile/tile_tile_0053
