@@ -34,6 +34,21 @@
   - Three.js framwork https://threejs.org/
   
 # Sources to credit
+##Home Page:
+- Background image: https://image.shutterstock.com/image-photo/stock-photo-halloween-night-background-with-scary-house-and-forest-grunge-dark-wallpaper-450w-381031108.jpg
+
+## Stage One
+- "Pontiac Ventura" ( https://skfb.ly/M7SC ) by Rena fox is licensed under Creative Commons Attribution-Non-commercial (http://creativecommons.org/licenses/by-nc/4.0/).
+- Textures for the “Scary Crates and Gate”: https://scorn-game.com/
+- Textures for Trees: https://texturehaven.com/textures/
+- Cut skin texture: https://www.cgtrader.com/3d-models/textures/natural/human-skin-bloody-cut-horror-seamless-pbr-texture 
+- Normal Wall Texture: https://opengameart.org/content/3-crate-textures-w-bump-normal
+- Sound effects :
+- https://youtu.be/pVY1-v97Mic - Evil laugh
+- Eerie Horror Music - "Lurking in the Shadows" (Slow Strings Composition)
+- Suspense Sound Effect: https://youtu.be/bSvHGtqStSM
+- Car Engine sound:  https://www.soundsnap.com/tags/driving  
+- 
  ## Stage 2: 
   ### Audio:
 - Red Velvet(레드벨벳) Peek-A-Boo (피카부) Official Instrumental: https://www.youtube.com/watch?v=kmfv2OOYfXo 
