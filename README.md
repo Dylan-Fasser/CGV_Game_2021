@@ -7,11 +7,9 @@
       -  Game should be playable on LAMP
       
 - #### Game Description
-      - The premise of our game takes inspiration from the Netflix show ‘Stranger Things’ and three other Korean television dramas, namely, ‘Hotel del Luna’, ‘Goblin’, and ‘The Tale of the Nine-Tailed Fox’.  
-      Our game will incorporate horror and supernatural elements -- a common theme in all these shows. 
+      - The premise of our game takes inspiration from the Netflix show ‘Stranger Things’ and three other Korean television drama, ‘Hotel del Luna’. Our game will incorporate horror and supernatural elements -- a common theme in all these shows. 
       - Level 1: During the night, the player starts out in a car chase but crashes and finds themselves in the woods, lost. 
-      They then discover a beautiful, grand-looking hotel in which only the souls of the dead can see. This means the player has died from the car accident but does not know it yet. 
-      - Level 2: The player will get to interact with all the ghouls, spirits and supernatural creatures (the non-player characters) who reside in the hotel as well as gather tokens and complete tasks which will help them recollect their memory. 
+      - Level 2: They then discover a beautiful, grand-looking hotel in which only the souls of the dead can see. This means the player has died from the car accident but does not know it yet. 
       - Level 3: The player starts developing suspicion and discovers that the sweet image of their environment is an illusion--the hotel visually transforms into a much darker, scarier and creepier version.
       - Level 4: The player will then try to escape using a secret passage and look for another non-player character who will lead them out of the hotel and guide them to the other world.
       
