@@ -19,13 +19,17 @@ const createWorld = () => {
 
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(45, window.innerWidth /window.innerHeight, 0.1, 200);
-    camera.position.set(-18, -5.7, 0.1);
+    camera.position.set(-18, -5.9, 0.4);
 
     // General light to scene because model will be dark
-    const ambient = new THREE.AmbientLight(0x404040, 2); //second no = how much light we want on it
+    const ambient = new THREE.AmbientLight(0x404040, 2); //second number = how much light we want on it
     scene.add(ambient); //ambient light will illuminate everything equally
 
     //Adding a Directional Light
+    /**
+     *
+     * @type {DirectionalLight}
+     */
     const light = new THREE.DirectionalLight(0xffffff, 2);
     light.position.set(10, 10, 100); //set position of light
     scene.add(light);
@@ -53,21 +57,23 @@ const createWorld = () => {
     /*
         The position of all three doors
      */
-    const doorOne = new Door(); //position of door through web console approx: {x: -18.18690055470057, y: -5.7, z: -1.7913537620933089}
-    doorOne.getDoorObject().then((object) => {
-        object.scale.set(0.01, 0.01, 0.01);
-        object.position.set(-18.3, -6.7, -1.9);
-        object.rotation.x = Math.PI / 240; // placing the door in an upright position
-        //object.reflect.y = Math.PI / 2
+    const doorOne = new BlueDoor();
+    doorOne.getBlueDoorObject().then((object) => {
+        object.scale.set(0.168, 0.168, 0.168); //resizing the door to fit into the hotel
+        object.position.set(-17.9, -5.7, -4.9);
+        object.rotation.x = Math.PI / 240; //positions the door upright
+        object.rotation.y = Math.PI / 2; // positions the door on the ground/floor
+        //object.rotation.z = Math.PI / 10000;
         scene.add(object);
         //camera.lookAt(object.position);
+        // exact coordinates {x: -19.325079303920415, y: -5.7, z: -0.3341399060727056}
     });
 
     //The door on the right hand Side
-    const doorTwo = new Door(); // position: {x: -16.42490580900899, y: -5.7, z: -1.3672302835366057}
+    const doorTwo = new WoodenDoor(); // position: {x: -16.42490580900899, y: -5.7, z: -1.3672302835366057}
     doorTwo.getWoodenDoorObject().then((object) => {
         object.scale.set(0.011, 0.011, 0.011);
-        object.position.set(-16.6, -6.8, -1.7);
+        object.position.set(-16.2, -6.8, -1.5);
         object.rotation.x = Math.PI / 270; //positions the door upright
         object.rotation.y = Math.PI / -4.3;
         // object.rotation.z = Math.PI / 90;
@@ -76,12 +82,13 @@ const createWorld = () => {
     });
 
     // The door on the left hand side
+
     const doorThree = new Door();
-    doorThree.getBlueDoorObject().then((object) => {
+    doorThree.getDoorObject().then((object) => {
         object.scale.set(0.0095, 0.0095, 0.0095); //resizing the door
         object.position.set(-19.5, -6.7, -0.9);
-        object.rotation.x = Math.PI / 270; //positions the door upright
-        object.rotation.y = Math.PI / 3.9; // positions the door on the ground/floor
+        object.rotation.x = Math.PI / 270;
+        object.rotation.y = Math.PI / 3.9;
         scene.add(object);
         //camera.lookAt(object.position);
         // exact coordinates {x: -19.325079303920415, y: -5.7, z: -0.3341399060727056}
@@ -224,6 +231,10 @@ function init() {
 
 initialTime = Date.now();
 
+/**
+ *
+ * @param time
+ */
 const animate = (time) => {
     //to keep track of where to place the objects
     if (controls.isLocked === true) {

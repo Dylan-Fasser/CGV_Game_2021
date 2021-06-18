@@ -18,16 +18,16 @@ export class BlueDoor{
             var camDoor = gltf.scene.children[0] //In an array. first child = scene
             camDoor.position.set(-18.69385079241348, -5.7, -0.753553311384706);
 
-            this._door = gltf.scene; //actual object
+            this._bluedoor = gltf.scene; //actual object
         });
     }
 
-    getDoorObject(){
+    getBlueDoorObject(){
         return new Promise((resolve) => {
             const checkUpIntervalId = setInterval(() => {
-                if (this._door){
+                if (this._bluedoor){
                     clearInterval(checkUpIntervalId);
-                    resolve(this._door);
+                    resolve(this._bluedoor);
                 }
             }, 300);
         });
