@@ -35,5 +35,15 @@
   
 # Sources to credit
  ## Level 2: 
-  - "Door Single" (https://skfb.ly/67o8T) by grimren13 is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
-  - "Haunted Mansion Stretching Room" (https://skfb.ly/ZE88) by pixeldog4ever is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+  ### Audio:
+- Red Velvet(레드벨벳) Peek-A-Boo (피카부) Official Instrumental: https://www.youtube.com/watch?v=kmfv2OOYfXo 
+
+### 3D Model (from Sketchfab)
+- The Hotel Lobby:
+"Haunted Mansion Stretching Room" (https://skfb.ly/ZE88) by pixeldog4ever is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- Middle door: 
+Door" (https://skfb.ly/IHp6)  by JmPrsh153 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+- Left-hand side door:
+"Door Single" (https://skfb.ly/67o8T) by grimren13 is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+- Right-hand side door:
+"Static Wood Door" (https://skfb.ly/6WYFW) by KurtSteiner is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/) 
