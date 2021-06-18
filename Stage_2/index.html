@@ -56,17 +56,45 @@
     <script src="index.js" type="module"></script>
 </head>
 <body>
-<div id="blocker">
+
+<div id="welcome_menu" class="container" style="display: none">
+    <p> Some message </p>
+    <button id="start"> Some start Button</button>
+</div>
+<div id="blocker" style="background:rgba(0,0,0,0.5) ">
+
     <div id="instructions">
+        <span style="font-family: Comic sans MS; ">Eenie Meenie Miney Moe</span>
+        <h1> WELCOME TO </h1>
+        <br/>
+        <h2> STAGE 2 </h2>
+        <br/>
+        <p style= "font-size:21px"> You happened to stumble upon the eerie-looking Hotel de la Holorie that
+            is tucked away in woods. <br/>
+            It only accepts special customers; are you one of them?
+            <br/>
+            <br/>
+        </p>
+        <p style= "font-size:21px"> Three different doors lay before you.</p>
+        <p style= "font-size:21px"> One door is randomly chosen to lead you through. </p>
+        <br/>
+        <p style= "font-size:22px"> Knock on the correct door to pass to the next level. You have unlimited chances. </p>
+        <p style= "font-size:22px"> READY? </p>
+        <br/>
+
         <p style="font-size:24px">
             Controls:
         </p>
-        <p>
+        <p style= "font-size:15px">
             Move: WASD<br/>
             Look: MOUSE
         </p>
         <p style="font-size:36px">
             Click to play
+        </p>
+
+        <p style= "font-size:17px">
+            To pause the game, click ESC
         </p>
     </div>
 </div>
@@ -76,10 +104,12 @@
     <div class="container">
 
     <p class="title" style = "color:green">
-        Success!
+        Success! <br/>
+        Click ESC then click the button
     </p>
     <p style="font-size:36px">
-        <button class="menu-button" onclick="location.href = '../index.html'" > Start Menu</button>
+        <button class="menu-button" onclick="location.href = '../index.html'" > Next Level..</button>
+        <button  id = "quit_game"> Quit </button>
     </p>
 
     </div>
@@ -87,14 +117,38 @@
 
 <div id="outcomeFail" class = "container" style="display: none">
     <p class="title" style="color: #5f0101">
-        Try Again!
+        Try Again! <br/>
+        Click ESC then click the button
     </p>
     <p style="font-size:36px">
         <button onclick="window.location.reload()">Restart</button>
+        <button  id = "quit_game"> Quit </button>
     </p>
+</div>
+
+<div class="container" id="restart_game" style="display: none ;">
+    <button  onclick="window.location.reload()"> Restart </button>
 </div>
 
 <audio src = "snd/background_music.mp3" id = "bg_music"></audio>
 
 </body>
+<script>
+    let start_button = document.getElementById("start") // get html tag reference
+    let welcome_menu = document.getElementById("welcome_menu") // get html tag reference for the menu
+</script>
+
+<script>
+    let Quit = document.getElementById("quit_game");
+    Quit.addEventListener('click',() => {
+        location.href = '../index.html'
+    })
+
+    let Win_Quit = document.getElementById("quit_game_win");
+    Win_Quit.addEventListener('click',() =>{
+        location.href = '../index.html'
+    })
+
+</script>
+
 </html>
