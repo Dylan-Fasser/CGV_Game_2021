@@ -276,10 +276,10 @@ initialTime = Date.now();
 
 /**
  * Enables the scene to animate and allow movement of camera as well.
+ * To keep track of where to place the objects
  * @param time
  */
 const animate = (time) => {
-    //to keep track of where to place the objects
     if (controls.isLocked === true) {
         finalTime = Date.now();
         controls.moveRight(sidewaysMovement * (finalTime - initialTime) / 1000);
