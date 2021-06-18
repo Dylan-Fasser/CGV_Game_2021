@@ -34,7 +34,7 @@
   - Three.js framwork https://threejs.org/
   
 # Sources to credit
-##Home Page:
+## Home Page:
 - Background image: https://image.shutterstock.com/image-photo/stock-photo-halloween-night-background-with-scary-house-and-forest-grunge-dark-wallpaper-450w-381031108.jpg
 
 ## Stage One
