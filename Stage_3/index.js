@@ -120,6 +120,9 @@ function init(control) {
             case 'KeyD':
                 sidewaysMovement = 1;
                 break;
+            case 'KeyR':
+                window.location.reload();
+                break;
 
             //testing
             // case 'KeyG':
