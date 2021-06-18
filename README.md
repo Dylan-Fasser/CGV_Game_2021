@@ -13,7 +13,7 @@
       They then discover a beautiful, grand-looking hotel in which only the souls of the dead can see. This means the player has died from the car accident but does not know it yet. 
       - Level 2: The player will get to interact with all the ghouls, spirits and supernatural creatures (the non-player characters) who reside in the hotel as well as gather tokens and complete tasks which will help them recollect their memory. 
       - Level 3: The player starts developing suspicion and discovers that the sweet image of their environment is an illusion--the hotel visually transforms into a much darker, scarier and creepier version.
-      - Level 4:  The player will then try to escape using a secret passage and look for another non-player character who will lead them out of the hotel and guide them to the other world.
+      - Level 4: The player will then try to escape using a secret passage and look for another non-player character who will lead them out of the hotel and guide them to the other world.
       
 - #### Group Members with Respective Teams
       -  Dylan Fasser  (Group Leader)  2179115: Stage 1
