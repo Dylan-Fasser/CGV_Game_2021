@@ -13,7 +13,7 @@
       - Level 3: The player starts developing suspicion and discovers that the sweet image of their environment is an illusion--the hotel visually transforms into a much darker, scarier and creepier version.
       - Level 4: The player will then try to escape using a secret passage and look for another non-player character who will lead them out of the hotel and guide them to the other world.
       
-- #### Group Members with Respective Teams
+- #### Group Members with Respective Stages
       -  Dylan Fasser  (Group Leader)  2179115: Stage 1
       -  Nthabiseng Mabetlela  1828559: Stage 2
       -  Gabriel Tidy  2152375: Stage 3
